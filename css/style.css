@@ -1,7 +1,222 @@
+/*
+Порядок свойст: 
+
+Позиционирование
+Блочная модель
+Типографика
+Оформление
+Анимация
+Разное
+*/
+
+html,
 body {
     font-size: 14px;
     line-height: 24px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.container {
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+    /*Для сеток*/
+/*    outline: 2px dashed black;*/
+}
+
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    width: 540px;
+    
+    /*Для сеток*/
+/*    min-height: 72px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.user-block {
+    width: 140px;
+    
+    /*Для сеток*/
+/*    min-height: 72px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.main-logo {
+    width: 368px;
+    height: 204px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+    /*Для сеток*/
+/*    outline: 2px dashed red;*/
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 80px;
+    
+    /*Для сеток*/
+/*    outline: 2px dashed black;*/
+}
+
+.features-item {
+    width: 300px;
+    
+    /*Для сеток*/
+/*    min-height: 160px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.index-content {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 50px 80px;
+    
+    /*Для сеток*/
+/*    outline: 2px dashed black;*/
+}
+
+.index-content-left {
+    width: 350px;
+    
+    /*Для сеток*/
+/*    min-height: 320px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.index-content-right {
+    width: 300px;
+    
+    /*Для сеток*/
+/*    min-height: 320px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.page-footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.page-footer .container {
+    display: flex;
+}
+
+.footer-contacts {
+    width: 310px;
+    margin-right: 90px;
+    
+    /*Для сеток*/
+/*    min-height: 95px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.footer-social {
+    width: 140px;
+    margin-right: 260px;
+    
+    /*Для сеток*/
+/*    min-height: 95px;*/
+/*    outline: 2px dashed red;*/
+}
+
+.footer-copyright {
+    width: 140px;
+    
+    /*Для сеток*/
+/*    min-height: 95px;*/
+/*    outline: 2px dashed red;*/
+}
+
+/*Стили catalog.html*/
+
+.catalog {
+    display: flex;
+}
+
+.catalog-controls {
+    flex-basis: 220px;
+    margin-right: 20px;
+}
+
+.catalog-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    flex-basis: 700px;
+}
+
+.catalog-item {
+    flex-basis: 220px;
+}
+
+.pegination {
+    margin-left: 240px;
+}
+
+/*Стили catalog-item.html*/
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-slider {
+    flex-basis: 460px;
+}
+
+.toggle-controls {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+    
+    list-style: none;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    
+    flex-basis: 390px;
+}
+
+/*Стили price.html*/
+
+.price-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price-content-item-left {
+    flex-basis: 240px;
+}
+
+.price-content-item-right {
+    flex-basis: 460px;
+}
+
+.content-distributor {
+    display: flex;
+}
+
+.content-distributor p {
+    flex-basis: 380px;
+}
+
+.content-distributor p:last-of-type {
+    margin-left: 100px;
 }

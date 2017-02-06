@@ -8,25 +8,15 @@
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="page-header">
         <div class="container">
-            <nav class="main-navigation">
+            <nav class="header-menu">
                 <ul>
-                    <li>
-                        <a href="#">Информация</a>
-                    </li>
-                    <li>
-                        <a href="#">Новости</a>
-                    </li>
-                    <li>
-                        <a href="#">Прайс-лист</a>
-                    </li>
-                    <li>
-                        <a href="#">Магазин</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="price.html">Прайс-лист</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
             <div class="user-block">
@@ -35,8 +25,8 @@
         </div>
     </header>
     <main class="container">
-        <div class="index-logo">
-            <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+        <div class="main-logo">
+            <img src="img/logo.svg" width="368px" height="204px" alt="Барбершоп «Бородинский»">
         </div>
         <section class="features">
             <div class="features-item">
@@ -70,9 +60,9 @@
             <div class="index-content-right">
                 <h2 class="index-content-title">Фотогалерея</h2>
                 <div class="gallery">
-                    <figure class="gallery-content">
-                        <img src="img/photo-1.jpg" width="286" height="164" alt="">
-                    </figure>
+                    <div class="gallery-content">
+                        <img src="img/photo-1.jpg" width="286px" height="164px" alt="">
+                    </div>
                     <button class="btn gallery-prev" type="button">Назад</button>
                     <button class="btn gallery-next" type="button">Вперёд</button>
                 </div>
@@ -107,25 +97,27 @@
             </div>
         </div>
     </main>
-    <footer class="main-footer">
+    <footer class="page-footer">
         <div class="container">
-            <section class="footer-contacts">
-                Барбершоп «Бородинский»
-                <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
-                <br>
-                <a href="#">Как нас найти?</a>
-                <br> Телефон: +7 (812) 666-02-66
-            </section>
-            <section class="footer-social">
+            <div class="footer-contacts">
+                <p>
+                    Барбершоп "Бородинский"
+                    <br> Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    <br>
+                    <a href="#">Как нас найти?</a>
+                    <br> Телефон: +7 (495) 666-02-66
+                </p>
+            </div>
+            <div class="footer-social">
                 <p>Давайте дружить!</p>
-                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-            </section>
-            <section class="footer-copyright">
+                <a class="btn-social" href="#">Вконтакте</a>
+                <a class="btn-social" href="#">Фейсбук</a>
+                <a class="btn-social" href="#">Инстаграмм</a>
+            </div>
+            <div class="footer-copyright">
                 <p>Разработано:</p>
-                <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-            </section>
+                <a class="btn" href="#">htmlacademy.ru</a>
+            </div>
         </div>
     </footer>
 </body>
